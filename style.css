@@ -26,6 +26,7 @@ body {
   padding: 1rem 2rem;
   background: var(--primary-blue);
   color: var(--white);
+  
 }
 
 .nav a {
@@ -33,6 +34,7 @@ body {
   margin-left: 1rem;
   text-decoration: none;
   font-weight: bold;
+  
 }
 
 /* HERO */
@@ -42,6 +44,16 @@ body {
   justify-content: space-between;
   padding: 4rem 2rem;
   background: var(--white);
+}
+.hero-image{
+    max-width: 500px;
+
+}
+.hero-image img {
+    width: 100%;
+    height:auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
 .hero-text {
@@ -57,9 +69,13 @@ body {
   margin: 1rem 0;
   font-size: 1.1rem;
 }
-
+.hero-buttons{
+    display: flex;
+  flex-wrap:wrap;
+}
 .hero-buttons .btn {
   margin-right: 1rem;
+  
 }
 
 /* BUTTONS */
@@ -107,14 +123,43 @@ body {
   color: var(--white);
   text-align: center;
 }
+.why-us h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
 
 .reasons {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
-  margin-top: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
 }
-
+.reason-card {
+    background: var(--white);
+    color: var(--dark);
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.reason-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+.reason-card img {
+    width:60px;
+    height:60px;
+    margin-bottom: 1rem;
+    object-fit: contain;
+    border-radius: 50%;
+}
+.reason-card h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
 /* CTA */
 .cta {
   padding: 3rem 2rem;
@@ -146,4 +191,37 @@ footer {
 }
 .icon {
     border-radius: 50% ;
+}
+
+.footer-icons {
+  margin-top: 1rem;
+}
+
+.footer-icons a {
+  margin: 0 0.5rem;
+}
+
+.footer-icons img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.active {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--bronze);
+  letter-spacing: 1px;  
+}
+@media screen and (max-width:760) {
+    .hero {
+        flex-direction: column;
+        text-align:center;
+    }
+    .hero-image {
+        margin-top: 2rem;
+    }
+    .hero-buttons{
+        flex-direction: column;
+    }
 }
