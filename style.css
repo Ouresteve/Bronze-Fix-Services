@@ -1,0 +1,144 @@
+:root {
+  --primary-blue: #0B3C5D;
+  --bronze: #D97A2B;
+  --light-gray: #F5F7FA;
+  --dark: #333;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: var(--light-gray);
+  color: var(--dark);
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: var(--primary-blue);
+  color: var(--white);
+}
+
+.nav a {
+  color: var(--white);
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  background: var(--white);
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-text h2 {
+  font-size: 2.5rem;
+  color: var(--primary-blue);
+}
+
+.hero-text p {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+.hero-buttons .btn {
+  margin-right: 1rem;
+}
+
+/* BUTTONS */
+.btn {
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.primary {
+  background: var(--bronze);
+  color: var(--white);
+}
+
+.secondary {
+  border: 2px solid var(--primary-blue);
+  color: var(--primary-blue);
+}
+
+/* SERVICES PREVIEW */
+.services-preview {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.service-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: var(--white);
+  padding: 2rem;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* WHY US */
+.why-us {
+  padding: 3rem 2rem;
+  background: var(--primary-blue);
+  color: var(--white);
+  text-align: center;
+}
+
+.reasons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+/* CTA */
+.cta {
+  padding: 3rem 2rem;
+  text-align: center;
+  background: var(--bronze);
+  color: var(--white);
+}
+
+/* FOOTER */
+footer {
+  padding: 2rem;
+  background: var(--dark);
+  color: var(--white);
+  text-align: center;
+}
+/* LOGO */
+.logo h1 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--bronze);
+  letter-spacing: 1px;
+}
+.logo img {
+  height: 40px;
+  object-fit: contain;
+
+}
