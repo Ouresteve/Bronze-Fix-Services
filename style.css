@@ -167,10 +167,19 @@ body {
   background: var(--bronze);
   color: var(--white);
 }
+.cta h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
 
+}
+.cta .btn {
+    display:inline-block;
+    margin-top:0.5rem;
+    background-color: var(--primary-blue);
+}
 /* FOOTER */
 footer {
-  padding: 2rem;
+  padding: 40px 20px;
   background: var(--dark);
   color: var(--white);
   text-align: center;
