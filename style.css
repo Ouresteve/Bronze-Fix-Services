@@ -98,8 +98,11 @@ body {
 }
 
 .secondary {
+  margin-left: 10px;
+  margin-top: 10px;
   border: 2px solid var(--primary-blue);
-  color: var(--primary-blue);
+  color: var(--white);
+  background-color: var(--primary-blue);
 }
 
 /* SERVICES PREVIEW */
@@ -359,6 +362,7 @@ footer {
   flex-direction: row-reverse;
   
 }
+
 #typing-text{
   font-size: 1.2rem;
   color:#fff;
@@ -416,6 +420,18 @@ footer {
   z-index: 1;
   position: relative;
 }*/
+.secondaryh {
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left:15px;
+  margin-bottom: 25px;
+  border: 2px solid var(--primary-blue);
+  color: var(--white);
+  background-color: var(--primary-blue);
+}
+
 @media screen and (max-width:760) {
     .hero {
         flex-direction: column;
