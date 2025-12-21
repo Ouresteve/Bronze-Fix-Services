@@ -5,8 +5,8 @@ const text = "Professional repair, installation and maintenance of kitchen & lau
 let index=0;
 
 function typeEffect() {
-    if(index<text,length) {
-        typingText.textContent += text.chartAt (index);
+    if(index<text.length) {
+        typingText.textContent += text.charAt(index);
         index++;
         setTimeout(typeEffect,40);
     }

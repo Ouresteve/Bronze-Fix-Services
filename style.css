@@ -359,6 +359,14 @@ footer {
   flex-direction: row-reverse;
   
 }
+#typing-text{
+  font-size: 1.2rem;
+  color:#fff;
+  min-height: 50px;
+  margin-top: 1rem;
+  line-height: 1.5;
+  opacity:1;
+}
 .service-image img{
   width: 350px;
   max-width: 100%;
