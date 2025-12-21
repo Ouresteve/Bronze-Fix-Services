@@ -32,7 +32,7 @@ let current=0;
  const heroImage=document.getElementById("hero-service-image");
  const images= [
     "images/broze.jpeg",
-    "images/Home Appliances.jpeg",
+    "images/Home appliances.jpeg",
     "images/work.jpg",
     "images/Technician.jpeg",
     "images/Experienced.jpeg"

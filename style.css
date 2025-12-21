@@ -359,14 +359,6 @@ footer {
   flex-direction: row-reverse;
   
 }
-.service-item.reverse.service-image img {
-  width: 350px;
-  max-width: 100%;
-  border-radius: 10px;
-  object-fit: cover;
-  
-
-}
 .service-image img{
   width: 350px;
   max-width: 100%;
