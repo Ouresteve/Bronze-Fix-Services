@@ -1,6 +1,6 @@
 const typingText= document.getElementById("typing-text");
 
-const text = "Professional repair, installation and maintenance of kitchen & laundry appliances.";
+const text = "Professional repair, installation and maintenance of home appliances.";
 
 let index=0;
 
