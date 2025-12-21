@@ -362,7 +362,15 @@ footer {
   flex-direction: row-reverse;
   
 }
-
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
 #typing-text{
   font-size: 1.2rem;
   color:#fff;
