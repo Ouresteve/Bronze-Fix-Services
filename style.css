@@ -222,6 +222,39 @@ footer {
   border-radius: 50%;
   vertical-align: middle;
 }
+.float {
+  position: fixed;
+  bottom: 20px;
+  width: 55px;
+  height:55px;
+  background:white;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  transition: transform 0.2s ease;
+}
+
+.float img {
+  width:30px;
+  height:30px;
+  border-radius: 50%;
+
+}
+.float:hover {
+  transform: scale(1.1);
+
+}
+.whatsapp {
+  left:20px;
+  background:#25D366;
+}
+.call{
+  right:20px;
+  background: var(--primary-blue);
+}
 
 @media screen and (max-width:760) {
     .hero {
